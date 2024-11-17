@@ -1,0 +1,8 @@
+# This file is useful to enforce a uniform style accross the workspace.
+# Keep in mind that some configs are nightly-only, so use `cargo +nightly fmt` if you use any of
+# those.
+
+# These are just some that I like
+group_imports       = "StdExternalCrate"
+imports_granularity = "Module"
+imports_layout      = "HorizontalVertical"

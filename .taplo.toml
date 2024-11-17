@@ -1,0 +1,10 @@
+# Settings for the Taplo LSP for Toml files
+# Thought it was worth putting here for people that appreciate a uniform format
+# for their manifest files
+# This is not enforced by the CI
+
+[formatting]
+align_entries  = true
+column_width   = 100
+reorder_arrays = true
+reorder_keys   = true
