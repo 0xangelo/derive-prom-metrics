@@ -1,6 +1,8 @@
 [package]
+categories  = ["development-tools", "rust-patterns"]
 description = "Build Prometheus metrics declaratively as structs"
 edition     = "2021"
+keywords    = ["derive", "macro", "prometheus"]
 license     = "MIT OR Apache-2.0"
 name        = "derive-prom-metrics"
 repository  = "https://github.com/0xangelo/derive-prom-metrics"
@@ -15,3 +17,12 @@ todo        = "warn"
 unwrap_used = "warn"
 
 [dependencies]
+darling     = "0.20"
+itertools   = "0.13"
+proc-macro2 = "1"
+quote       = "1"
+syn         = { version = "2", features = ["extra-traits", "full"] }
+
+
+[dev-dependencies]
+prometheus = "0.13"
