@@ -4,10 +4,16 @@ use syn::{Attribute, Expr, ExprLit, Ident, Lit, Meta, MetaNameValue};
 
 /// Data extracted from the fields of the input struct.
 #[derive(Debug, Clone, FromField)]
-#[darling(forward_attrs(doc))]
+#[darling(attributes(prometheus), forward_attrs(doc))]
 pub struct Field {
     attrs: Vec<Attribute>,
     ident: Option<Ident>,
+
+    /// For histograms only.
+    pub buckets: Option<Expr>,
+
+    /// For `Vec_` metrics.
+    pub label_names: Option<Expr>,
 }
 
 impl Field {
