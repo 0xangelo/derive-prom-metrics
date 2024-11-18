@@ -1,4 +1,5 @@
 [package]
+authors     = ["Angelo Lovatto <doom444@pm.me>"]
 categories  = ["development-tools", "rust-patterns"]
 description = "Build Prometheus metrics declaratively as structs"
 edition     = "2021"
