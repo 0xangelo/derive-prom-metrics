@@ -2,7 +2,7 @@
 //!
 //! This crate is in the very early stages of development.
 //!
-//! [Prometheus]: prometheus
+//! [Prometheus]: https://prometheus.io
 //!
 //! # Example
 //!
