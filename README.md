@@ -5,9 +5,7 @@
 [![CI](https://github.com/0xangelo/derive-prom-metrics/workflows/CI/badge.svg)](https://github.com/0xangelo/derive-prom-metrics/actions)
 [![Rust GitHub Template](https://img.shields.io/badge/Rust%20GitHub-Template-blue)](https://rust-github.github.io/)
 
-## Quickstart
-
-TODO
+<!-- cargo-rdme -->
 
 ## License
 
