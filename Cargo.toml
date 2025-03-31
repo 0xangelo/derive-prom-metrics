@@ -26,4 +26,4 @@ syn         = { version = "2", features = ["extra-traits", "full"] }
 
 
 [dev-dependencies]
-prometheus = "0.13"
+prometheus = "0.14"
