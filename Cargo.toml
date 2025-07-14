@@ -18,7 +18,7 @@ todo        = "warn"
 unwrap_used = "warn"
 
 [dependencies]
-darling     = "0.20"
+darling     = "0.21"
 itertools   = "0.14"
 proc-macro2 = "1"
 quote       = "1"
